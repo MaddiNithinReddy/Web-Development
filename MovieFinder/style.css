@@ -1,0 +1,42 @@
+*{
+    background-color: black;
+}
+#search{
+    border-radius: 20px;
+    line-height: 20px;
+}
+main{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#headings{
+    text-align: center;
+}
+.innertags{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.innertags a{
+    padding-right: 15px;
+}
+i{
+    color: yellow; 
+    padding:3px; 
+    font-size:20px;
+}
+.moviesmenu{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.movies{
+    height: 230px;
+    width: 17vw;
+}
+img+h3{
+    text-align: center;
+}
